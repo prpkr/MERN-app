@@ -5,6 +5,7 @@ const bcrypt = require("bcrypt");
 const crypto = require("crypto");
 const userModel = require("./models/user");
 const sessionModel = require("./models/session");
+require('dotenv').config();
 
 const app = express();
 
